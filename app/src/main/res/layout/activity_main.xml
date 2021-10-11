@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:padding="40dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome inMy First Project"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.619" />
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/praktikum1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="praktikum1"
+            android:text="Praktikum 1" />
+        <Button
+            android:id="@+id/praktikum2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="praktikum2"
+            android:text="Praktikum 2" />
+        <Button
+            android:id="@+id/tugas2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="tugas2"
+            android:text="Tugas 2" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="jurusan">Jurusan</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment1">inilah contoh fragment1</string>
+    <string name="hello_blank_fragment2">inilah contoh fragment2</string>
+</resources>
