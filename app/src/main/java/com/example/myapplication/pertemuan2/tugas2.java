@@ -7,7 +7,7 @@ import android.os.Bundle;
 import com.example.myapplication.R;
 
 public class tugas2 extends AppCompatActivity {
-
+//tes
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

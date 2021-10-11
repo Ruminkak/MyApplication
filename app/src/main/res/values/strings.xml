@@ -4,4 +4,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment1">inilah contoh fragment1</string>
     <string name="hello_blank_fragment2">inilah contoh fragment2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment3">inilah contoh fragment3</string>\
+    <string name="hello_blank_fragment4">inilah contoh fragment4</string>
 </resources>
